@@ -1,0 +1,83 @@
+.addUserContent {
+    margin-left: 250px;
+    padding: 20px;
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #fff;
+}
+
+.addUserContent h1 {
+    margin-bottom: 20px;
+}
+
+.addUserContent form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.addUserContent label {
+    font-weight: bold;
+}
+
+.addUserContent input,
+.addUserContent select {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+.addUserContent .input-group {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.addUserContent .input-icon {
+    position: absolute;
+    left: 10px;
+    color: rgb(13, 170, 233);
+    font-size: 18px;
+}
+
+.addUserContent input {
+    padding-left: 35px;
+    font-size: 14px;
+    width: 100%;
+}
+
+.addUserContent .password-toggle {
+    position: absolute;
+    right: 10px;
+    cursor: pointer;
+    color: rgb(13, 170, 233);
+}
+
+.addUserContent button {
+    padding: 12px;
+    background-color: rgb(13, 170, 233);
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.addUserContent button:hover {
+    background-color: #45a049;
+}
+
+.error {
+    color: red;
+    font-size: 0.9em;
+}
+
+.success {
+    color: green;
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 10px;
+}

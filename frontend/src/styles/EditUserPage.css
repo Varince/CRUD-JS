@@ -1,0 +1,91 @@
+.updateUserContent {
+    margin-left: 250px;
+    padding: 20px;
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #fff;
+}
+
+.updateUserContent h1 {
+    margin-bottom: 20px;
+}
+
+.updateUserContent form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.updateUserContent label {
+    font-weight: bold;
+}
+
+.updateUserContent input,
+.updateUserContent select {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+    width: 100%;
+}
+
+.updateUserContent select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+
+.updateUserContent button {
+    padding: 12px;
+    background-color: rgb(13, 170, 233);
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.updateUserContent button:hover {
+    background-color: #45a049;
+}
+
+.updateUserContent .editUserInputContainer {
+    display: flex;
+    flex-direction: column;
+}
+
+.updateUserContent .editUserInputWithIcon {
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.updateUserContent .editUserInputIcon {
+    position: absolute;
+    left: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 18px;
+    color: rgb(13, 170, 233);
+}
+
+.updateUserContent .editUserError,
+.updateUserContent .editUserErrorMessage {
+    color: red;
+    font-size: 0.9em;
+    margin-top: 5px;
+}
+
+.success {
+    color: green;
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.updateUserContent input {
+    padding-left: 30px;
+    font-size: 14px;
+}
